@@ -8,11 +8,11 @@ cls
 echo ================================
 echo          %dev%
 echo ================================
-echo 0. выйти
-echo 1. открыть SysBooster
-echo 2. открыть Catlavan Fixer
+echo 0. РІС‹Р№С‚Рё
+echo 1. РѕС‚РєСЂС‹С‚СЊ SysBooster
+echo 2. РѕС‚РєСЂС‹С‚СЊ Catlavan Fixer
 
-set /p v="выбор: "
+set /p v="РІС‹Р±РѕСЂ: "
 if "%v%"=="0" exit /b
 if "%v%"=="1" goto sysboost
 if "%v%"=="2" goto ctl
@@ -25,4 +25,5 @@ goto visit
 :ctl
 start "" "https://github.com/bIindboot1337/RemasteredFix-1"
 pause
+
 goto visit
