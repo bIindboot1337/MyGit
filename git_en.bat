@@ -1,5 +1,4 @@
 @echo off
-chcp 1251 >nul
 title jjx n lunz 
 set "dev=blindboot.w1n"
 
@@ -25,4 +24,5 @@ goto visit
 :ctl
 start "" "https://github.com/bIindboot1337/RemasteredFix-1"
 pause
+
 goto visit
